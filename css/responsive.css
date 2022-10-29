@@ -1,0 +1,712 @@
+/* Responsive for xxl screen */
+@media screen and (min-width: 1400px) and (max-width: 1400px) {
+   .header-text .header-text-light-sm {
+      font-size: 50px;
+   }
+
+   .header-text .header-text-white-lg {
+      font-size: 100px;
+      margin-bottom: 14px;
+   }
+
+   .container {
+      max-width: 1320px;
+   }
+
+   #smartSolution {
+      padding-top: 120px;
+   }
+
+   .info-header .upper-text p {
+      font-size: .8rem;
+   }
+
+   #mangoRailLive .right-side .inner-content .pak-live-heading {
+      font-size: 46px;
+      font-weight: bolder;
+      font-family: inherit;
+      letter-spacing: 0px;
+      margin-bottom: 33px;
+      position: relative;
+   }
+
+   #mangoRailLive .right-side .inner-content .pak-light-text {
+      font-size: 17px;
+      font-weight: 100;
+      font-style: italic;
+      font-family: emoji;
+      margin-top: 18px;
+      margin-bottom: 20px;
+   }
+
+   #mangoRailLive .right-side .inner-content .m-text-light {
+      margin-bottom: 26px;
+      color: #7a7a7a;
+      font-size: 13px;
+      line-height: 22px;
+      font-family: sans-serif;
+   }
+
+   #mangoRailLive .right-side .inner-content .pk-menu .pk-item:nth-child(2) {
+      margin: 5px 0;
+   }
+
+   #mangoRailLive .right-side .inner-content .pk-menu .pk-item {
+      color: #808080;
+      font-size: 13px;
+   }
+}
+
+/* Responsive for xl screen */
+@media screen and (max-width: 1200px) {
+   .header-text {
+      margin: 70px 0 0 70px;
+   }
+
+   .navbar .logo img {
+      width: 160px;
+   }
+
+   .header-text .para-text {
+      padding-right: 30px;
+   }
+
+   .navbar .navbar-menu .navbar-item .navbar-link {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 9px;
+   }
+
+   .d-grid {
+      grid-template-columns: repeat(2, 370px);
+      grid-template-rows: 137px 137px;
+      grid-gap: 86px;
+   }
+
+   .container {
+      max-width: 1120px;
+   }
+
+   .light-transparent-bg-section .right-side {
+      margin-left: 0px;
+   }
+
+   .light-transparent-bg-section .light-transparent-inner {
+      padding: 100px;
+      padding-right: 57px;
+   }
+
+   .light-transparent-bg-section::after {
+      width: 43%;
+   }
+
+
+   .fa-search {
+      font-size: 1rem;
+   }
+
+}
+
+/* Responsive for lg screen */
+@media screen and (max-width: 992px) {
+   .header-text .header-text-light-sm {
+      font-size: 50px;
+      display: block;
+   }
+
+   #stats .stats-inner {
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+   }
+
+   #stats .stats-inner .stats-content h1::before {
+      left: 48%;
+   }
+
+   #stats .stats-inner .stats-content h1 {
+      font-size: 2.7rem;
+   }
+
+   #stats .stats-inner .stats-content p {
+      margin: 10px 0;
+      font-size: 0.95rem;
+   }
+
+   #stats {
+      height: 700px;
+      width: 100%;
+   }
+
+   header .fa-search {
+      position: absolute;
+      right: 0.2vw;
+      font-weight: 400;
+      font-size: 1.8rem;
+      transition: 0.2s linear;
+   }
+
+   .info-header {
+      display: none;
+   }
+
+
+   #stats::before {
+      height: 700px;
+   }
+
+
+   #mangoRailLive .second-section .right-side2 {
+      display: none;
+   }
+
+   .navbar .ham-burger {
+      display: block;
+      font-weight: 100;
+      right: 52px;
+   }
+
+
+
+   .light-transparent-bg-section .left-side .column-cards .column-cards-content .card-text {
+      font-size: 15px;
+   }
+
+
+   .navbar .navbar-menu {
+      display: none;
+   }
+
+   .hamburger {
+      display: block;
+      position: fixed;
+      right: 52px;
+   }
+
+   .ham-burger {
+      display: block;
+   }
+
+   .light-transparent-bg-section::after {
+      width: 100%;
+   }
+
+   .light-transparent-bg-section .light-transparent-inner {
+      padding: 78px 0;
+      padding-left: 77px;
+      padding-right: 89px;
+   }
+
+   .light-transparent-bg-section .right-side {
+      margin-left: 13%;
+      margin-top: 13px;
+      margin-bottom: 147px;
+      padding-right: 44px;
+   }
+
+   .light-transparent-bg-section {
+      flex-direction: column;
+   }
+
+   .header-text {
+      margin: 70px 0 0 30px;
+   }
+
+   .d-grid {
+      grid-template-columns: repeat(1, 500px);
+      grid-template-rows: 137px 137px;
+   }
+
+   .smart_div .smart-text-normal {
+      color: #3a3a3ac9;
+      padding: 0 50px;
+   }
+
+   .container {
+      max-width: 960px;
+   }
+
+   .smart_div_2 .smart_content_div {
+      height: 130px;
+   }
+
+   #mangoWork .work-content .img-with-overlay-content .inner-content a .fa-search-plus {
+      font-size: unset;
+   }
+
+   #mangoWork .work-content .img-with-overlay-content .inner-content a h4 {
+      margin-top: 15px;
+      white-space: pre-wrap;
+      font-weight: 100;
+      font-size: 0.81rem;
+      font-family: var(--primary-font);
+   }
+
+   #mangoWork .work-heading h1 {
+      font-size: 31px;
+   }
+
+   .light-transparent-bg-section .column-cards {
+      width: 450px;
+   }
+
+   #mangoRailLive .first-section .left-side {
+      display: none;
+      width: 80%;
+   }
+
+   #mangoRailLive .second-section .left-side .jumbotron {
+      padding: 40px 25px;
+      margin-top: 70px;
+   }
+
+   #mangoRailLive .second-section .right-side {
+      display: none;
+   }
+
+   #mangoRailLive .second-section .left-side {
+      width: 85%;
+      margin: 0 auto;
+   }
+
+   #mangoRailLive .second-section .left-side .jumbotron .jumbotron-h1 {
+      font-size: 5vw;
+   }
+
+   #brands .brands-content {
+      overflow: auto;
+   }
+
+   footer .row {
+      display: flex;
+      flex-direction: column;
+   }
+
+   footer .footer .footer-content p {
+      font-size: 0.7rem;
+   }
+
+   footer .footer .container .row .col-md-4 {
+      width: 100%;
+      padding: 25px 16px;
+   }
+
+   footer .footer {
+      padding: 4rem 0;
+   }
+
+   footer .footer .footer-content ul li a {
+      font-size: 0.8rem;
+   }
+}
+
+/* Responsive for md screen */
+@media screen and (max-width: 768px) {
+   .light-transparent-bg-section .right-side .light-transparent-section-heading {
+      font-family: var(--primary-font);
+      font-size: 8vw;
+      font-weight: bold;
+      margin: 8px 0;
+      position: relative;
+   }
+
+
+   #contact .contact-content form .form-content-1 {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   #contact .contact-content form .form-content-1 .form-control {
+      margin-top: 0;
+      width: 98%;
+   }
+
+
+   #contact .contact-content form .form-content-2 {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   #contact .contact-content form .form-content-3 textarea {
+      width: 96%;
+   }
+
+   #contact .contact-content form .form-content-2 .form-control {
+      width: 98%;
+   }
+
+   .navbar .logo img {
+      width: 145px;
+   }
+
+   #mangoRailLive .first-section .left-side {
+      display: none;
+   }
+
+   .light-transparent-bg-section .column-cards {
+      width: 300px;
+      margin: 0 auto;
+   }
+
+   .light-transparent-bg-section .left-side .column-cards .column-cards-content .card-text {
+      font-size: 3vw;
+   }
+
+   .info-header {
+      display: none;
+   }
+
+   .darkmode, .dark-text {
+      display: none;
+   }
+
+   .dark-icon {
+      display: none !important;
+   }
+
+   .header-text {
+      margin: 0px 0 0 15px;
+   }
+
+   .header-text .header-text-white-lg {
+      font-size: 4rem;
+      margin-bottom: 33px;
+   }
+
+   .header-text .header-text-light-sm {
+      font-size: 30px;
+      font-weight: 400;
+   }
+
+   .navbar {
+      padding: 0 12px;
+   }
+
+   .smart_div_2 .smart_flexbox_div {
+      width: 50px;
+      display: flex;
+      align-items: self-start;
+      justify-content: center;
+   }
+
+   .smart_div_2 .smart_flexbox_div .fa-mobile-alt {
+      margin-right: 30px;
+      margin-left: 0;
+   }
+
+   .smart_div_2 .smart_content_div {
+      padding: 0px;
+   }
+
+   #smartSolution {
+      padding-top: 120px;
+
+   }
+
+   .smart_div .smart-main-heading {
+      font-size: 7vw;
+   }
+
+   .container {
+      max-width: 576px;
+   }
+
+   .light-transparent-bg-section .light-transparent-inner {
+      padding-left: 8%;
+   }
+
+   .light-transparent-bg-section .right-side {
+      margin-left: 9%;
+      margin-top: 74px;
+      margin-bottom: 147px;
+      padding-right: 44px;
+   }
+
+   header::before {
+      height: 490px;
+   }
+
+   #mangoWork .work-content-body {
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      width: 75%;
+   }
+
+   #mangoRailLive .right-side .inner-content {
+      width: 63%;
+      margin: auto;
+   }
+
+   #mangoRailLive .right-side .inner-content .pak-light-text {
+      font-size: 15px;
+      font-weight: 900;
+      font-style: italic;
+      font-family: emoji;
+      margin-bottom: 11px;
+   }
+
+   #mangoRailLive .right-side .inner-content .pak-live-heading {
+      font-size: 37px;
+      font-weight: bolder;
+      letter-spacing: 0px;
+      margin-bottom: 24px;
+      position: relative;
+   }
+
+   #mangoRailLive .right-side .inner-content .m-text-light {
+      margin-bottom: 16px;
+      color: #7a7a7a;
+      font-size: 12px;
+      line-height: 22px;
+      font-family: sans-serif;
+   }
+
+   #mangoRailLive .right-side .inner-content .pk-menu .pk-item {
+      color: #808080;
+      font-size: 12px;
+   }
+
+   #mangoRailLive .right-side .inner-content .pk-menu .pk-item:nth-child(2) {
+      margin: 10px 0;
+   }
+
+
+   #mangoRailLive .right-side .inner-content .pak-live-heading::after {
+      top: 52px;
+      height: 1.4px;
+   }
+
+   .header-text .para-text {
+      font-size: 0.67rem;
+   }
+
+   #testimonial .client-content .para1 {
+      width: auto;
+      line-height: 21px;
+      padding: 0 20px;
+      font-size: .8rem;
+      letter-spacing: .3px;
+   }
+}
+
+/* Responsive for sm or smaller screen */
+@media screen and (max-width: 576px) {
+   #mangoRailLive .right-side .inner-content {
+      width: 88%;
+      margin: auto;
+   }
+
+   #testimonial .client-content h1 {
+      font-size: 2.3rem;
+      letter-spacing: 0px;
+   }
+
+   #testimonial .client-content .para2 {
+      width: auto;
+      text-align: center;
+      font-size: 1rem;
+   }
+
+   #testimonial .client-content h5 {
+      width: auto;
+   }
+
+   .mango-btn {
+      font-size: 10px !important;
+      padding: 13px 17px !important;
+   }
+
+   #mangoRailLive .right-side .inner-content .pak-light-text {
+      font-size: 4vw;
+   }
+
+   #mangoRailLive .right-side .inner-content .pak-live-heading {
+      font-size: 11vw;
+   }
+
+   #mangoRailLive .right-side .inner-content .m-text-light {
+      font-size: 3vw;
+      line-height: 19px;
+   }
+
+   #mangoRailLive .right-side .inner-content .pak-live-heading::after {
+      top: 45px;
+      height: 2px;
+      width: 36vw;
+   }
+
+   #mangoWork .button_icons a {
+      margin: 10px 23px;
+   }
+
+   .header-text {
+      margin: 70px 0 0 30px;
+   }
+
+   .header-text .header-text-white-lg {
+      font-size: 3rem;
+
+      margin-bottom: 35px;
+      letter-spacing: -2px;
+   }
+
+   .header-text .header-text-light-sm {
+      font-size: 1.76rem;
+      line-height: 30px;
+
+      letter-spacing: -2px;
+   }
+
+   .header-text .para-text {
+      padding-right: 30px;
+      font-size: 3vw;
+   }
+
+   .header-text {
+      margin: 5px;
+   }
+
+   .navbar {
+      border-radius: 0%;
+      padding: 0 5px;
+      margin: 0;
+   }
+
+   .navbar .ham-burger {
+      display: block;
+   }
+
+   #smartSolution {
+      padding-top: 130px;
+   }
+
+   .d-grid {
+      grid-template-columns: repeat(1, auto);
+      grid-template-rows: repeat(6, 200px);
+      grid-column-gap: 0px;
+   }
+
+   .d-grid .d-grid-item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 5vw;
+   }
+
+   .smart_div .smart-text-blue-bg {
+      font-size: 6vw;
+   }
+
+   .smart_div .smart-text-normal {
+      font-size: 0.8rem;
+      padding: 0;
+   }
+
+   .smart_div_2 .smart_flexbox_div {
+      font-size: 5vw;
+      margin-bottom: 20px;
+      width: 0px;
+   }
+
+   .smart_div_2 .smart_flexbox_div i {
+      margin-right: 0;
+   }
+
+   .smart_div_2 .smart_flexbox_div .fa-mobile-alt {
+      margin-right: 0;
+   }
+
+   .light-transparent-bg-section .column-cards {
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 87vw;
+   }
+
+   .light-transparent-bg-section .left-side .column-cards .column-cards-inner i {
+      margin-bottom: 20px;
+   }
+
+   .light-transparent-bg-section .left-side .column-cards .column-cards-inner {
+      margin-right: 0px;
+   }
+
+   .light-transparent-bg-section .left-side .column-cards .column-cards-content .card-heading {
+      font-size: 7vw;
+   }
+
+   .light-transparent-bg-section .right-side .light-transparent-section-heading::after {
+      top: 118px;
+   }
+
+   .light-transparent-bg-section .right-side .text-with-italic-style {
+      font-size: 8vw;
+   }
+
+   .light-transparent-bg-section .right-side .right-side-text {
+      font-size: 4vw;
+   }
+
+   .right-side-text-2nd {
+      font-size: 4vw;
+   }
+
+   .smart_div .smart-text-primary-bg {
+      font-size: .9rem;
+   }
+
+   .light-transparent-bg-section .right-side {
+      margin-bottom: 45px;
+   }
+
+   #mangoWork .work-content-body {
+      width: 100%;
+   }
+
+   #mangoWork .work-heading {
+      margin: 69px 9px;
+      margin-bottom: 45px;
+   }
+
+   #mangoWork .work-heading h1 {
+      font-size: 12vw;
+      margin-bottom: 8px;
+   }
+
+   #mangoWork .work-heading small {
+      margin-left: 5px;
+   }
+
+   #mangoRailLive .second-section .left-side {
+      width: 100%;
+      margin: 0;
+   }
+
+   #mangoRailLive .second-section .left-side .jumbotron .jumbotron-h1 {
+      font-size: 8vw;
+   }
+
+   .fa-search {
+      font-size: 16px;
+   }
+
+   .hamburger {
+      display: block;
+      position: fixed;
+   }
+
+   .smart_div_2 .smart_content_div .smart_text_p {
+      font-size: 1rem;
+      color: #505050;
+   }
+
+   #stats {
+      width: 100%;
+   }
+}
